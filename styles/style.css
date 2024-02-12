@@ -3,41 +3,33 @@
     display: flex;
     justify-content: space-between;
     width: 1052px;
-    height: 121px;
-    left: 24px;
-    right: 24px;
-    top: 92px;
-    bottom: 2815px;
+    height: 105px;
+    margin: 92px 24px;
     font-family: Raleway, sans-serif;
     align-items: center;
-}
-
-.nav {
-    display: flex;
+    padding: 35px;
 }
 
 .navigation {
     display: flex;
     list-style: circle;
-    gap: 30px;
+    width: 33.3%;
     white-space: nowrap;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 400;
-    letter-spacing: 1%;
-    line-height: 21px;
+    letter-spacing: 0%;
+    gap: 30px;
 }
 
 .main_link {
     text-decoration: none;
 }
 
-
 .header_logo {
+    width: 148px;
     height: 105px;
-    width: 148;
-    margin-left: 0;
-    padding-left: 0;
 }
+
 
 address {
     display: inline;
@@ -45,6 +37,8 @@ address {
     font-size: 18px;
     font-weight: 400;
     letter-spacing: 0;
+    margin-left: 70px;
+    line-height: 135%;
 }
 
 .cover {
@@ -63,7 +57,11 @@ address {
     letter-spacing: 0.3em;
     display: flex;
     flex-direction: column;
-    padding: 165px 50px;
+    gap: 10px;
+}
+
+.space_letter {
+    letter-spacing: 0.4em;
 }
 
 .letter-top {
@@ -86,11 +84,12 @@ address {
     padding-top: 10px;
 }
 .bottom_menu {
+    margin-top: 120px;
     display: flex;
-    gap: 110px;
     word-spacing: 15px;
     align-items: left;
     padding-left: 78px;
+    justify-content: space-between;
 }
 
 .overlay {
@@ -98,6 +97,7 @@ address {
     width: 1100px;
     height: 757px;
     font-family: Raleway, sans-serif;
+    padding: 165px 50px 50px;
 }
 
 .bet-button {
@@ -126,7 +126,7 @@ address {
     line-height: 47px;
     letter-spacing: 0em;
     text-align: left;
-    margin: 0 0 27px 40px;
+    margin: 179px 0 27px 10px;
 
 }
 
@@ -201,7 +201,7 @@ address {
 .about {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    margin-top: 146px;
+    margin: 185px 0 0 80px;
     
 }
 
@@ -238,7 +238,7 @@ address {
     display: flex;
     flex-direction: column;
     gap: 24px;
-    padding-top: 150px;
+    padding-top: 80px;
     font-family: Raleway;
     font-size: 20px;
     font-weight: 400;
@@ -251,8 +251,7 @@ address {
 .footer {
     display: flex;
     justify-content: space-between;
-    align-items:self-end;
-    margin: 180px 26px;
+    margin: 180px 20px;
 }
 
 .navigation_footer {
@@ -267,7 +266,7 @@ address {
 
 .footer_logo_container {
     display: flex;
-    gap: 40px;
+    gap: 60px;
 }
 
 .socials_logo {
